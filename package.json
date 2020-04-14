@@ -1,0 +1,30 @@
+{
+  "name": "node-virtual-server",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "node server.js",
+    "local": "node local.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sasha-arrabi/node-virtual-server.git"
+  },
+  "author": "Sasha Arrabi",
+  "license": "MIT",
+  "private": true,
+  "bugs": {
+    "url": "https://github.com/sasha-arrabi/node-virtual-server/issues"
+  },
+  "homepage": "https://github.com/sasha-arrabi/node-virtual-server#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "greenlock-express": "^4.0.3",
+    "http-proxy": "^1.18.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.6",
+    "@types/node": "^13.11.1"
+  }
+}
